@@ -30,3 +30,15 @@ body{
     text-transform: capitalize;
 
 }
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
