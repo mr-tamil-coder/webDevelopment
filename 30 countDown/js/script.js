@@ -19,4 +19,12 @@ function Update(){
         minutes.innerHTML=day<10?"0"+minute:minute;
         seconds.innerHTML=day<10?"0"+second:second;
     }
+ const days=document.querySelector("#days");
+        const hours=document.querySelector("#hours");
+        const minutes=document.querySelector("#minutes");
+        const seconds=document.querySelector("#seconds");
+        days.innerHTML=day<10?"0"+day:day;
+        hours.innerHTML=day<10?"0"+hour:hour;
+        minutes.innerHTML=day<10?"0"+minute:minute;
+        seconds.innerHTML=day<10?"0"+second:second;
     setInterval(Update,1000);
